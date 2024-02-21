@@ -1,5 +1,5 @@
 def palindrome_checker(inputString):
-  if inputString == inputString[::-1]:
+  if inputString.lower() == inputString[::-1].lower():
     return True
   else:
     return False
